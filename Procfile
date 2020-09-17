@@ -1,2 +1,2 @@
-web: echo "I don't want a web process"
+heroku ps:scale web=0
 worker: node bot.js
